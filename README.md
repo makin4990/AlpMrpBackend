@@ -84,20 +84,17 @@ Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationAspect.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Aspects/Autofac/Validation/ValidationAspect.cs)
-
 <br>:file_folder:`CrossCuttingConcerns`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Microsotf`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Microsoft`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [MemoryCacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/Microsoft/MemoryCacheManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/ICacheManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationTool.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
-
 <br>:file_folder:`DataAccess`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntitiyFramework`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfEntityRepositoryBase.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntityRepository.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/IEntityRepository.cs)
-
 <br>:file_folder:`DependencyResolvers`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Entities`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OperationClaims.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/Concrete/OperationClaim.cs)
@@ -105,7 +102,6 @@ Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserOperations.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/Concrete/UserOperationClaim.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/IDto.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntity](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/IEntity.cs)
-
 <br>:file_folder:`Extentions`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ClaimExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ClaimExtensions.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ClaimPrincipalExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ClaimsPrincipalExtensions.cs)
@@ -113,7 +109,6 @@ Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ExceptionMiddleware.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ExceptionMiddleware.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ExeptionMiddlewareExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ExceptionMiddlewareExtensions.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SerciveCollectionExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ServiceCollectionExtensions.cs)
-
 <br>:file_folder:`Utilities`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Business`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [BusinessRule](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Business/BusinessRules.cs)
