@@ -12,8 +12,7 @@ Veritabanı nesneleri için oluşturulmuş **Entities Katmanı**'nda **Abstract*
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductDetailDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/ProductDetailDto.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserForLoginDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/UserForLoginDto.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserForRegisterDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/UserForRegisterDto.cs)
-
-<br> <br> :file_folder:`Concrete`   
+<br> <br> :file_folder:`Concrete`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AddToCart.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/AddToCart.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Cart.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/Cart.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Option.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/Option.cs)
@@ -21,10 +20,9 @@ Veritabanı nesneleri için oluşturulmuş **Entities Katmanı**'nda **Abstract*
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Product.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/Product.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductOption.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/ProductOption.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserCart.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/UserCart.cs)
-
 ###  Business Layer
 Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetlemek için oluşturulan **Business Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
-<br>:file_folder:`Abstract`  
+<br>:file_folder:`Abstract`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDetail.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/CartDetail.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IAuthService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IAuthService.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/ICartService.cs)
@@ -33,39 +31,30 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IProductService.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserCartService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IUserCartService.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IUserService.cs)
-
 <br>:file_folder:`BussinesAspects`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SecuredOperation.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/BusinessAspects/Autofac/SecuredOperation.cs)
-
 <br>:file_folder:`CCS`
-
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [DatabaseLogger.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/CCS/DatabaseLogger.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [FileLogger.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/CCS/FileLogger.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ILoggerLogger.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/CCS/FileLogger.cs)
 
-<br> <br> :file_folder:`Concrete`  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AuthManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/AuthManager.cs)  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDetailManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartDetailManager.cs)
+<br> <br> :file_folder:`Concrete`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AuthManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/AuthManager.cs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDetailManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartDetailManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/OptionManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/ProductOptionManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductOptionManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/ProductOptionManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserCartManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/UserCartManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/UserManager.cs)  
-
 <br>:file_folder:`Constants`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Messages.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Constants/Messages.cs)
-
 <br>:file_folder:`DependencyResolvers`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AutofacBusinessModule.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs)
-
-
 <br>:file_folder:`ValidationRules`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `FluentValidation`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionValidator.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/ValidationRules/FluentValidation/OptionValidator.cs)
-     
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionValidator.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/ValidationRules/FluentValidation/OptionValidator.cs)    
 ###  Data Access Layer
 Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
 <br>:file_folder:`Abstract`  
