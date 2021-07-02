@@ -35,7 +35,7 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IUserService.cs)
 
 <br>:file_folder:`BussinesAspects`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SecuredOperation.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/BusinessAspects/Autofac/SecuredOperation.cs)
 
 <br>:file_folder:`CCS`
@@ -45,7 +45,7 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ILoggerLogger.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/CCS/FileLogger.cs)
 
 <br> <br> :file_folder:`Concrete`  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AuthManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/AuthManager.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AuthManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/AuthManager.cs)  
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDetailManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartDetailManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/OptionManager.cs)
@@ -69,15 +69,53 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 ###  Data Access Layer
 Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
 <br>:file_folder:`Abstract`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICategoryDal.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Abstract/ICategoryDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductDal.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Abstract/IProductDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up:[ICustomerDal.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Abstract/ICustomerDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntityRepository.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Abstract/IEntityRepository.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDal.cs)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDetail.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDetailDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IOptionDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductDal.cs)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductOptionDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserCartDal.cs)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserDal.cs)
 <br> <br> :file_folder:`Concrete`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCategoryDal.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Concrete/EntityFramework/EfCategoryDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfProductDal.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Concrete/EntityFramework/EfProductDal.cs)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [NorthwindContext.cs](https://github.com/ergulkizilkaya/FinalProject/blob/master/DataAccess/Concrete/EntityFramework/NorthwindContext.cs)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AlplerVTContext.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/AlplerVTContext.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfCartDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCartDetailDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfCartDetailDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfOptionDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfProductDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfProductDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfProductOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfProductOptionDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfUserCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfUserCartDal.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfUserDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
+
+###  Core Layer
+Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCuttingConcerns** , **DataAccess** , **DependencyResolvers** , **Entities** , **Extentions** ve **Utilities** olmak üzere yedi adet klasör bulunmaktadır. Bu katmanda tüm projelerimde kullanımak soyut sınıflar ve teknolojiler kullanılmıştır.
+
+<br>:file_folder:`Aspects`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CacheAspect.cs]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CacheRempveAspect.cs]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationAspect.cs]
+
+<br>:file_folder:`CrossCuttingConcerns`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Microsotf`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [MemoryCacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/Microsoft/MemoryCacheManager.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: [ICacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/ICacheManager.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationTool.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
+
+<br>:file_folder:`DataAccess`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntitiyFramework`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: [EfEntityRepositoryBase.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: [IEntityRepository.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/IEntityRepository.cs)
+
+<br>:file_folder:`DependencyResolvers`
+<br>:file_folder:`Entities`
+<br>:file_folder:`Extentions`
+<br>:file_folder:`Utilities`
 ### :red_circle:Prerequisites
 ```
 EntityFrameworkCore 3.1.11
