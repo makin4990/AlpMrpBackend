@@ -63,7 +63,7 @@ Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access K
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductDal.cs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductOptionDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserCartDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserDal.cs)
-<br> <br> :file_folder:`Concrete`
+<br>:file_folder:`Concrete`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AlplerVTContext.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/AlplerVTContext.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfCartDal.cs)
