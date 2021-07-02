@@ -35,7 +35,7 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IUserService.cs)
 
 <br>:file_folder:`BussinesAspects`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SecuredOperation.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/BusinessAspects/Autofac/SecuredOperation.cs)
 
 <br>:file_folder:`CCS`
