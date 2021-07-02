@@ -45,7 +45,7 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ILoggerLogger.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/CCS/FileLogger.cs)
 
 <br> <br> :file_folder:`Concrete`  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AuthManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/AuthManager.cs)  
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AuthManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/AuthManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDetailManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartDetailManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/CartManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/OptionManager.cs)
