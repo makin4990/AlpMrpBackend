@@ -12,7 +12,7 @@ Veritabanı nesneleri için oluşturulmuş **Entities Katmanı**'nda **Abstract*
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductDetailDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/ProductDetailDto.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserForLoginDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/UserForLoginDto.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserForRegisterDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/UserForRegisterDto.cs)
-<br> <br> :file_folder:`Concrete`
+<br> :file_folder:`Concrete`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AddToCart.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/AddToCart.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Cart.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/Cart.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Option.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/Option.cs)
