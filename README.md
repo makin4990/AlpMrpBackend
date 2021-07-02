@@ -45,7 +45,7 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/ProductOptionManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductOptionManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/ProductOptionManager.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserCartManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/UserCartManager.cs)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/UserManager.cs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Concrete/UserManager.cs)
 <br>:file_folder:`Constants`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Messages.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Constants/Messages.cs)
 <br>:file_folder:`DependencyResolvers`
