@@ -103,14 +103,14 @@ Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Microsotf`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [MemoryCacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/Microsoft/MemoryCacheManager.cs)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: [ICacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/ICacheManager.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICacheManager.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Caching/ICacheManager.cs)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationTool.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
 
 <br>:file_folder:`DataAccess`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntitiyFramework`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: [EfEntityRepositoryBase.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: [IEntityRepository.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/IEntityRepository.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfEntityRepositoryBase.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntityRepository.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/DataAccess/IEntityRepository.cs)
 
 <br>:file_folder:`DependencyResolvers`
 <br>:file_folder:`Entities`
