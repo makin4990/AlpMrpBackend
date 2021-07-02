@@ -56,16 +56,15 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionValidator.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/ValidationRules/FluentValidation/OptionValidator.cs)
 ###  Data Access Layer
 Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
-<br>:file_folder:`Abstract`  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDal.cs)  
+<br>:file_folder:`Abstract`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDetail.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDetailDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IOptionDal.cs)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductDal.cs)  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductOptionDal.cs)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserCartDal.cs)  
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductDal.cs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IProductOptionDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IProductOptionDal.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserCartDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IUserDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/IUserDal.cs)
-<br> <br> :file_folder:`Concrete`  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`    
+<br> <br> :file_folder:`Concrete`
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `EntityFramework`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AlplerVTContext.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/AlplerVTContext.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfCartDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfCartDetailDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfCartDetailDal.cs)
@@ -76,16 +75,15 @@ Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access K
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfUserDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
 
 ###  Core Layer
-Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCuttingConcerns** , **DataAccess** , **DependencyResolvers** , **Entities** , **Extentions** ve **Utilities** olmak üzere yedi adet klasör bulunmaktadır. Bu katmanda tüm projelerimde kullanımak soyut sınıflar ve teknolojiler kullanılmıştır.
-
+Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCuttingConcerns** , **DataAccess** , **DependencyResolvers** , **Entities** , **Extentions** ve **Utilities** olmak üzere yedi adet klasör bulunmaktadır. Bu katmanda tüm projelerimde kullanılacak soyut sınıflar ve teknolojiler kullanılmıştır.
 <br>:file_folder:`Aspects`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CacheAspect.cs]
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CacheRempveAspect.cs]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CacheAspect.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Aspects/Autofac/Caching/CacheAspect.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CacheRempveAspect.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Aspects/Autofac/Caching/CacheRemoveAspect.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Validation`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationAspect.cs]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ValidationAspect.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Aspects/Autofac/Validation/ValidationAspect.cs)
 
 <br>:file_folder:`CrossCuttingConcerns`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
