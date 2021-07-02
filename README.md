@@ -5,7 +5,7 @@ N-Katmanlı mimari yapısı ile hazırlanan bu proje müşteri odaklı, varyant 
 ## :books:Layers
 ### Entities Layer
 Veritabanı nesneleri için oluşturulmuş **Entities Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
-<br>:file_folder:`DTOs`  
+<br>:file_folder:`DTOs`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDataDetailDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/CartDataDetailDto.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/CartDTO.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CartDto2.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/DTOs/CartDto2.cs)
