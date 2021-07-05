@@ -101,7 +101,7 @@ Tüm projelerde baz alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [User.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/Concrete/User.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserOperations.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/Concrete/UserOperationClaim.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IDto.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/IDto.cs)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntity](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/IEntity.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IEntity.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Entities/IEntity.cs)
 <br>:file_folder:`Extentions`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ClaimExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ClaimExtensions.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ClaimPrincipalExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ClaimsPrincipalExtensions.cs)
