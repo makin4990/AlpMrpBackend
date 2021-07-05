@@ -21,7 +21,7 @@ Veritabanı nesneleri için oluşturulmuş **Entities Katmanı**'nda **Abstract*
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ProductOption.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/ProductOption.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [UserCart.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Entities/Concrete/UserCart.cs)
 ###  Business Layer
-Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetlemek için oluşturulan **Business Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
+Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetlemek için oluşturulan **Business Katmanı**'nda **Abstract** , **Concrete** , **BusinessAspects** , **CCS** , **Constants** , **DependencyResolver** ve **ValidationRules**  olmak üzere yedi adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur. Bağımlılık çözümlemek için **Autofac** Validaston için ise **FluentValidation** kullanılmıştır.  
 <br>:file_folder:`Abstract`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDetail.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/CartDetail.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IAuthService.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/Abstract/IAuthService.cs)
@@ -55,7 +55,7 @@ Sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetl
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `FluentValidation`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [OptionValidator.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Business/ValidationRules/FluentValidation/OptionValidator.cs)
 ###  Data Access Layer
-Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
+Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır. Teknoloji olarak Microsoft Entity Framework tercih edilmiştir.
 <br>:file_folder:`Abstract`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDal.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [ICartDetail.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Abstract/ICartDetailDal.cs)
