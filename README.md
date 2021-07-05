@@ -75,7 +75,7 @@ Veritabanı CRUD işlemleri gerçekleştirmek için oluşturulan **Data Access K
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EfUserDal.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
 
 ###  Core Layer
-Tüm projelerde bas alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCuttingConcerns** , **DataAccess** , **DependencyResolvers** , **Entities** , **Extentions** ve **Utilities** olmak üzere yedi adet klasör bulunmaktadır. Bu katmanda tüm projelerimde kullanılacak soyut sınıflar ve teknolojiler kullanılmıştır.
+Tüm projelerde baz alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCuttingConcerns** , **DataAccess** , **DependencyResolvers** , **Entities** , **Extentions** ve **Utilities** olmak üzere yedi adet klasör bulunmaktadır. Bu katmanda tüm projelerimde kullanılacak soyut sınıflar, generic yapılar  ve teknolojiler kullanılmıştır.
 <br>:file_folder:`Aspects`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Autofac`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Caching`
