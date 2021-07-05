@@ -1,7 +1,7 @@
 # AlpMrpBackend
 
 ## :pushpin:Getting Started
-N-Katmanlı mimari yapısı ile hazırlanan bu proje müşteri odaklı, varyant yapısı kullanılarak üretim yapan firmalar için iş emri ve sipariş alan bir projedir. Müşteriler ya da üretim firmasına bağlı bayiiler kendileri için tasarlanmış arayüz üzerinden siparişlerini verip sipariş durumlarını takip edebilirler. Ayrıca proje istenmesi durumunda BOM(bill of metarial) hazılanabilecek şekilde tasarlanmıştır.  [Nortwind Sql Code](https://github.com/microsoft/sql-server-samples/blob/master/samples/databases/northwind-pubs/instnwnd.sql)
+N-Katmanlı mimari yapısı ile hazırlanan bu proje müşteri odaklı, varyant yapısı kullanılarak üretim yapan firmalar için iş emri ve sipariş alan bir projedir. Müşteriler ya da üretim firmasına bağlı bayiiler kendileri için tasarlanmış arayüz üzerinden siparişlerini verip sipariş durumlarını takip edebilirler. Ayrıca proje istenmesi durumunda BOM(bill of metarial) hazılanabilecek şekilde tasarlanmıştır.
 ## :books:Layers
 ### Entities Layer
 Veritabanı nesneleri için oluşturulmuş **Entities Katmanı**'nda **Abstract** ve **Concrete** olmak üzere iki adet klasör bulunmaktadır.Abstract klasörü soyut nesneleri, Concrete klasörü somut nesneleri tutmak için oluşturulmuştur.  
@@ -111,7 +111,7 @@ Tüm projelerde baz alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SerciveCollectionExtentions.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Extensions/ServiceCollectionExtensions.cs)
 <br>:file_folder:`Utilities`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Business`
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [BusinessRule](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Business/BusinessRules.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [BusinessRule.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Business/BusinessRules.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Interceptors`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [AspectInterceptorSelector.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Interceptors/AspectInterceptorSelector.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [MethodInterception.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Interceptors/MethodInterception.cs)
@@ -127,11 +127,11 @@ Tüm projelerde baz alabileceğim **Core Katmanı**'nda **Aspects** ,  **CrossCu
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [IResult.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Results/IResult.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Result.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Results/Result.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SuccesDataResult.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Results/SuccessDataResult.cs)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SuccesResult.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Results/SuccessResult.cs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: []()
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SuccesResult.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Results/SuccessResult.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Security`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Encryption`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SecurityKeyHelper.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Security/Encryption/SecurityKeyHelper.cs)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SecurityKeyHelper.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Security/Encryption/SigningCredentialsHelper.cs)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [SigningCredentialsHelper.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Security/Encryption/SigningCredentialsHelper.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `Hashing`
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [HashingHelper.cs](https://github.com/makin4990/AlpMrpBackend/blob/master/Core/Utilities/Security/Hashing/HashingHelper.cs)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:file_folder: `JWT`
