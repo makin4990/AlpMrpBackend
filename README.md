@@ -157,4 +157,4 @@ EntityFrameworkCore 3.1.11
                 <a href="http://www.vaibhavpandey.com/whatsnew/">Whatsapp</a>
             </h4>
         </div>
-
+<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/whatsapp.svg" />
