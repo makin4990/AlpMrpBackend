@@ -152,9 +152,6 @@ EntityFrameworkCore 3.1.11
 <br>
 
 <div style="text-align:center">
-            <h4>
-                <i class="fab fa-whatsapp"></i>
-                <a href="http://www.vaibhavpandey.com/whatsnew/">Whatsapp</a>
-            </h4>
+            <img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/whatsapp.svg" /><h4>Whatsapp</h4>
         </div>
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/whatsapp.svg" />
+
