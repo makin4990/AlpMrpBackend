@@ -151,7 +151,7 @@ EntityFrameworkCore 3.1.11
 <br>
 <br>
 <br>
-<div style="text-align:center">
+<div align="center">
             <h4>
                 <a href="http://www.vaibhavpandey.com/whatsnew/" align="center">
                     <img src="https://raw.githubusercontent.com/vaibhavpandeyvpz/whatsnew/master/logo.png" height="20">WhatsApp
