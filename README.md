@@ -150,11 +150,11 @@ EntityFrameworkCore 3.1.11
 * **Muhammed AKIN** - [makin4990](https://github.com/makin4990)
 <br>
 <br>
-<br>
+
 <div style="text-align:center">
-            <h4 style="text-align:center">
-                <a href="http://www.vaibhavpandey.com/whatsnew/"></a>
-                <a><img src="https://raw.githubusercontent.com/vaibhavpandeyvpz/whatsnew/master/logo.png" height="20">WhatsApp</a>
+            <h4>
+                <i class="fab fa-whatsapp"></i>
+                <a href="http://www.vaibhavpandey.com/whatsnew/">Whatsapp</a>
             </h4>
         </div>
 
