@@ -149,5 +149,5 @@ EntityFrameworkCore 3.1.11
 ## :pencil2:Authors
 * **Muhammed AKIN** - [makin4990](https://github.com/makin4990)
 
-  <h4><a href="http://www.vaibhavpandey.com/whatsnew/" align="center"><img src="https://raw.githubusercontent.com/vaibhavpandeyvpz/whatsnew/master/logo.png" height="15">WhatsApp</a>
+  <h4><a href="http://www.vaibhavpandey.com/whatsnew/" align="center"><img src="https://raw.githubusercontent.com/vaibhavpandeyvpz/whatsnew/master/logo.png" height="20">WhatsApp</a>
 </h4>
