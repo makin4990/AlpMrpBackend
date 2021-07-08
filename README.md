@@ -152,6 +152,6 @@ EntityFrameworkCore 3.1.11
 <br>
 
 <div style="text-align:center">
-            <img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/whatsapp.svg" /><h4>Whatsapp</h4>
+            <h4><img height="32" width="32" src="https://unpkg.com/simple-icons@v5/icons/whatsapp.svg" />Whatsapp</h4>
         </div>
 
