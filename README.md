@@ -149,7 +149,4 @@ EntityFrameworkCore 3.1.11
 ## :pencil2:Authors
 * **Muhammed AKIN** - [makin4990](https://github.com/makin4990)
 
-<p><a target="_blank" href="https://api.whatsapp.com/send?phone='+$setting.number+'&amp;text='+$setting.text+'" class="img-icon-a nofocus whatsapp-icon-web">                                <img class="img-icon ccw-analytics" id="style-9" data-ccw="style-9" style="height:70px;" src="https://www.speaktech.in/themes/images/whatsapp-icon.png" alt="WhatsApp">WhatsApp</a></p>;
-
-   
-  }
+  <a href="http://www.vaibhavpandey.com/whatsnew/"><img src="https://raw.githubusercontent.com/vaibhavpandeyvpz/whatsnew/master/logo.png" height="25">WhatsApp</a>
